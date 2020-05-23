@@ -17,13 +17,29 @@
 <p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
 </p>
 <H3>How to Use the API</H3>
-<p>The API is very simple to use and uses a symbol registration and output calls to subscribe to various trading data services (L1, L2, TOS, OrderStatus, OrderEvents, ) and also provides a mechanism to send orders to the trading floor via a rest call. The following is a list of API call that can be perfromed:
+<p>The API is very simple to use and uses a symbol registration and output process to subscribe to trading data services (L1, L2, TOS, OrderStatus, OrderEvents, TraderInfo, etc..) and also provides a mechanism to send orders to the trading floor via a rest call. The following is a overview of the API calls:
 <li>Register</li>
 <li>SetOutput</li>
 <li>GetSnapshot</li>
-<li>Get</li>
+<li>Deregister</li>
 <li>GetEnvironment</li>
+<li>Get</li>
+<li>GetBlotterSnapshot</li>
+<li>GetLv1</li>
 <li>GetTraderInfo</li>
+<li>GetTransactions</li>
+<li>ExecuteOrder</li>
+<li>ExecuteBasketOrder</li>
+<li>ExecuteListOrder</li>
+<li>CancelOrder</li>
+<li>CancelOrderReplace</li>
+<li>GetOrderNumber</li>
+<li>GetOrderState</li>
+<li>GetOpenOrders</li>
+<li>SendTrailingStop</li>
+<li>SendSwiftStop</li>
+<li>GetOpenPositions</li>
+<li>Flatten</li>
 </p>
 
 
