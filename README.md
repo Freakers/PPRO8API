@@ -17,7 +17,7 @@
 <p>The API is structured to allow trading proffessional and programmers a interface to code custom trading applications that integrate into the Ralota trading platform. The API can be divided into two set of trade process flows:</p>
 <li>Trade Data Services</li>
 <li>Order and Trade Management</li>
-<p>The data services component of the API allows users to subscribe to various forms of trade data and collect and disseminate that data into various forms of trade data services:
+<p>The data services component of the API allows users to subscribe and direct output of trade data to a data repository for historical data processing or it can be collected in realtime using the trading platforms UDP broacasting mechanism. The following are some data services that can be created using the API:
 <li>Realtime L1 Data Feed</li>
 <li>Realtime L2 Data Feed</li>
 <li>Realtime Time Of Sale (TOS) Feed</li>
