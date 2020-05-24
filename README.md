@@ -54,12 +54,14 @@
 <li>GetOpenPositions</li>
 <li>Flatten</li>
 
-<H4>Order and Trade Management</H4>
+<H4>General Workflow Structure of the API</H4>  
+</p>The followinga are some simple workflow models:,/p>
 
-<H4>General Structure of the API</H4>  
-</p>
-<H3>API Calls</H3>
-<p>The API uses a symbol registration and output process to subscribe to trading data services (L1, L2, TOS, OrderStatus, OrderEvents, TraderInfo, etc..) and also provides a mechanism to send orders to the trading floor via a rest call. The following is a overview of the API calls:
+
+<H3>API Functions</H3>
+
+<p>The following is a the entire list of functions that make up the API:</p>
+
 <li>Register</li>
 <li>SetOutput</li>
 <li>GetSnapshot</li>
