@@ -11,13 +11,15 @@
 <p>The API requires that the Ralota Trading Platform be installed on your PC and that you have a valid user account and password setup. This is not a standalone API library and must integrate to the Ralota trading platform while it is running to allow API calls to be routed to the back end servers to provide real-time trading. Due to the way this product is architected the trading platform must always be running in order to use the API and it does not require any user authentication because this is provided through the trading platform's user authentication process.</p>
 <H3>How to Setup</H3>
 <li>Install Ralota Trading Platform on PC</li>
-<li>Enable API</li>
+<li>Enable API through your trading supervisor</li>
 <li>Develop and Test API in TMS</li>
-<H3>Official PPro8 PProAPI Wiki  Page</H3>
-<p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
+<H3>General Structure of the API</H3>
+<p>The API can be divided into two set of trade process flows:
+<li>Trade Data Services</li>
+<li>Trade Data Services</li>
+<H4>Order and Trade Management</H4>
+<H4>General Structure of the API</H4>  
 </p>
-<H3>General Process Flows</H3>
-<p>The API can be setup  </p>
 <H3>API Calls</H3>
 <p>The API uses a symbol registration and output process to subscribe to trading data services (L1, L2, TOS, OrderStatus, OrderEvents, TraderInfo, etc..) and also provides a mechanism to send orders to the trading floor via a rest call. The following is a overview of the API calls:
 <li>Register</li>
@@ -42,6 +44,9 @@
 <li>SendSwiftStop</li>
 <li>GetOpenPositions</li>
 <li>Flatten</li>
+</p>
+<H3>Official PPro8 PProAPI Wiki  Page</H3>
+<p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
 </p>
 
 
