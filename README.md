@@ -17,7 +17,7 @@
 <p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
 </p>
 <H3>General Process Flows</H3>
-<p>The API process flow is split into </p>
+<p>The API can be setup  </p>
 <H3>API Calls</H3>
 <p>The API uses a symbol registration and output process to subscribe to trading data services (L1, L2, TOS, OrderStatus, OrderEvents, TraderInfo, etc..) and also provides a mechanism to send orders to the trading floor via a rest call. The following is a overview of the API calls:
 <li>Register</li>
