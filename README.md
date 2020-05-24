@@ -10,7 +10,7 @@
 <H2>Overview of API</H2>
 <p>The API requires that the Ralota Trading Platform be installed on your PC and that you have a valid user account and password setup. This is not a standalone API library and must integrate to the Ralota trading platform while it is running to allow API calls to be routed to the back end servers to provide real-time trading. Due to the way this product is architected the trading platform must always be running in order to use the API and it does not require any user authentication because this is provided through the trading platform's user authentication process.</p>
 <H3>How to Setup</H3>
-<li>Install Ralota Trading Platform</li>
+<li>Install Ralota Trading Platform on PC</li>
 <li>Enable API</li>
 <li>Develop and Test API in TMS</li>
 <H3>Official PPro8 PProAPI Wiki  Page</H3>
@@ -41,3 +41,6 @@
 <li>GetOpenPositions</li>
 <li>Flatten</li>
 </p>
+<H3>General Process Flows</H3>
+<p>The API process flow </p>
+
