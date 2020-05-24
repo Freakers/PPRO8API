@@ -15,16 +15,47 @@
 <li>Develop and Test API in TMS</li>
 <H3>General Structure of the API</H3>
 <p>The API is structured to allow traders and programmers a interface to code custom trading applications that integrate into the Ralota trading platform. The API can be divided into two set of trade process flows:</p>
+
 <li>Trade Data Services</li>
-<li>Order and Trade Management</li>
-<p>The data services component of the API allows users to subscribe and direct trade data output to a data repository or collect data in realtime using the trading platforms UDP broacasting mechanism. The following are some data services that can be created using the API:
 <li>Realtime L1 Data Feed</li>
 <li>Realtime L2 Data Feed</li>
 <li>Realtime Time Of Sale (TOS) Feed</li>
 <li>TSX Static Imbalance Feed</li>
 <li>NYSE & NASDAQ Realtime Opening and Closing Imbalance</li>
-<li>Realtime Order Status and Events</li></p>
+
+<p>The data services component of the API allows users to subscribe and direct trade data output to a data repository or collect data in realtime using the trading platforms UDP broacasting mechanism. The following are the API calls that would be used when creating the above trade applications:</p>
+  
+<li>Register</li>
+<li>SetOutput</li>
+<li>GetSnapshot</li>
+<li>Deregister</li>
+<li>GetEnvironment</li>
+<li>Get</li>
+<li>GetBlotterSnapshot</li>
+<li>GetLv1</li>
+<li>GetTraderInfo</li>
+<li>GetTransactions</li>
+
+
+<li>Order and Trade Management</li>
+
+<p>The Order and Trade Management services component of the API allows users to subscribe and direct trade order and trade data output to a data repository or collect data in realtime using the trading platforms UDP broacasting mechanism. The following are some data services that can be created using the API:
+
+<li>ExecuteOrder</li>
+<li>ExecuteBasketOrder</li>
+<li>ExecuteListOrder</li>
+<li>CancelOrder</li>
+<li>CancelOrderReplace</li>
+<li>GetOrderNumber</li>
+<li>GetOrderState</li>
+<li>GetOpenOrders</li>
+<li>SendTrailingStop</li>
+<li>SendSwiftStop</li>
+<li>GetOpenPositions</li>
+<li>Flatten</li>
+
 <H4>Order and Trade Management</H4>
+
 <H4>General Structure of the API</H4>  
 </p>
 <H3>API Calls</H3>
