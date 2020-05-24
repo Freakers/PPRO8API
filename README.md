@@ -14,9 +14,16 @@
 <li>Enable API through your trading supervisor</li>
 <li>Develop and Test API in TMS</li>
 <H3>General Structure of the API</H3>
-<p>The API can be divided into two set of trade process flows:
+<p>The API is structured to allow trading proffessional and programmers a interface to code custom trading applications that integrate into the Ralota trading platform. The API can be divided into two set of trade process flows:</p>
 <li>Trade Data Services</li>
-<li>Trade Data Services</li>
+<li>Order and Trade Management</li>
+<p>The data services component of the API allows users to subscribe to various forms of trade data and collect and disseminate that data into various forms of trade data services:
+<li>Realtime L1 Data Feed</li>
+<li>Realtime L2 Data Feed</li>
+<li>Realtime Time Of Sale (TOS) Feed</li>
+<li>TSX Static Imbalance Feed</li>
+<li>NYSE & NASDAQ Realtime Opening and Closing Imbalance</li>
+<li>Realtime Order Status and Events</li></p>
 <H4>Order and Trade Management</H4>
 <H4>General Structure of the API</H4>  
 </p>
