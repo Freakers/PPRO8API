@@ -12,7 +12,7 @@
 <H3>How to Setup</H3>
 <li>Install Ralota Trading Platform</li>
 <li>Enable API</li>
-<li>Test API</li>
+<li>Develop and Test API in TMS</li>
 <H3>Official PPro8 PProAPI Wiki  Page</H3>
 <p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
 </p>
