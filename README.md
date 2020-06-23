@@ -89,4 +89,15 @@
 <p>The following is the wiki page created by DTTW documenting all the various API calls and examples of some of the APIs. URL: https://www.daytradetheworld.com/wiki/pproapi/
 </p>
 
+<H3>Trade Workflow Process</H3>
+<p>In order to use the API properly you must understand the general trade workflow process to create trading tools and or data models with the Ralota Trading platform. The following outlines the general worklow steps:
+<li>Register Security for specific trade data (L1, L2, TimeOfSale, OrderStatus, OrderEvent)</li>
+<li>SetOutput for the security data (To A file, Realtime UDP broacasts</li>
+<li>If the output is to a file then create batch functions to process the data in the file</li>
+<li>If the output is realtime UDP broadcasts the write use realtime UDP libraries to read the data of the port(s)</li>
+<li>Process data from realtime port or process data from file</li>
+</p>
+
+
+
 
