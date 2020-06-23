@@ -92,10 +92,11 @@
 <H3>Trade Workflow Process</H3>
 <p>In order to use the API properly you must understand the general workflow process for create trading tools or data models with the Ralota Trading platform. The following outlines the general worklow steps:
 <li>Register Security for specific trade data (L1, L2, TimeOfSale, OrderStatus, OrderEvent)</li>
-<li>SetOutput for the security data (To A file or Realtime UDP broacasts</li>
+<li>SetOutput for the security data (To A file or Realtime UDP broacasts)</li>
 <li>If the output is to a file then create batch functions to process the data in the file</li>
 <li>If the output is realtime UDP broadcasts then use a realtime UDP library to read the data off the port(s)</li>
 <li>Process data from realtime port(s) or process data from file</li>
+
 <p>The following two API calls setup the various securities for specific trade data and then route the output to a file or UDP port number:
 <li>Register</li>
 <li>SetOutput</li>
